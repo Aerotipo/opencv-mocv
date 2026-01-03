@@ -27,7 +27,7 @@ plt.title("Apollo 11 Launch", fontsize = 12)
 plt.show()
 
 # Save the image as a PNG file using OpenCV imwrite().
-cv2.imwrite("Apollo-11-launch.png", img_jpg)
+cv2.imwrite("Apollo-11-launch.png", img_bgr)
 
 #========
 #01-02
